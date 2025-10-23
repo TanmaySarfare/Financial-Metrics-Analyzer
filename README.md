@@ -176,56 +176,6 @@ financial-metrics-analyzer/
 └── README.md             # This file
 ```
 
-### Running Tests
-```bash
-# Test backend calculations
-python -m finance_clean.cli --ticker AAPL --dump
-
-# Test multiple tickers
-python -m finance_clean.cli --ticker MSFT --strict
-```
-
-## 📊 Sample Output
-
-### Company Summary
-```json
-{
-  "ticker": "AAPL",
-  "company_name": "Apple Inc.",
-  "sector": "Technology",
-  "industry": "Consumer Electronics",
-  "real_time": {
-    "price": 260.04,
-    "currency": "USD"
-  },
-  "beta": 1.094,
-  "alpha": 0.0116
-}
-```
-
-### Financial Metrics
-```json
-{
-  "metrics": {
-    "beneish_m_score": -2.3402,
-    "altman": {
-      "z": 2.146,
-      "z_prime": 1.892
-    },
-    "ratios": {
-      "current": 0.8673,
-      "quick": 0.8234,
-      "debt_to_equity": 1.2345,
-      "roe": 0.1456,
-      "roa": 0.0891
-    },
-    "piotroski": {
-      "score": 7.0,
-      "fscore_display": "7.00/9"
-    }
-  }
-}
-```
 
 ## 🤝 Contributing
 
@@ -257,14 +207,6 @@ Sarfare, Tanmay R. (2025). Financial Metrics Analyzer — Professional Financial
 https://github.com/TanmaySarfare/Financial-Metrics-Analyzer
 ```
 
-### 📋 Usage Guidelines
-
-- **Educational Use**: ✅ Permitted for learning and research
-- **Commercial Use**: ❌ Requires explicit written permission
-- **Redistribution**: ❌ Not allowed without authorization
-- **Modification**: ❌ Prohibited without consent
-- **Attribution**: ✅ Required for any permitted use
-
 ### ⚠️ Disclaimer
 
 This tool is for educational and research purposes only. It should not be used as the sole basis for investment decisions. Always consult with qualified financial advisors before making investment choices.
@@ -288,5 +230,3 @@ If you encounter any issues or have questions:
 - **Academic Researchers** - Beneish, Altman, Piotroski for their groundbreaking work
 
 ---
-
-**Made with ❤️ for the financial analysis community**
