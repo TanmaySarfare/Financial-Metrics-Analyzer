@@ -235,19 +235,47 @@ python -m finance_clean.cli --ticker MSFT --strict
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## 📄 License & Attribution
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### 🔖 Technical Badges
+![Built with Python 3.12](https://img.shields.io/badge/Built%20with-Python%203.12-blue)
+![Powered by Pandas & NumPy](https://img.shields.io/badge/Powered%20by-Pandas%20%26%20NumPy-green)
+![Data Source Yahoo Finance](https://img.shields.io/badge/Data%20Source-Yahoo%20Finance-orange)
+![License MIT](https://img.shields.io/badge/License-MIT-yellow)
 
-## ⚠️ Disclaimer
+---
+
+### ⚖️ License & Attribution
+
+**© 2025 Tanmay Rajendra Sarfare. All rights reserved.**
+
+This project and its contents (code, documentation, and visuals) are the intellectual property of the author. Unauthorized reproduction, redistribution, or commercial use of any part of this repository is strictly prohibited without prior written permission.
+
+**For academic or professional reference, please cite this repository as:**
+```
+Sarfare, Tanmay R. (2025). Financial Metrics Analyzer — Professional Financial Analysis and Fraud Detection Tool. GitHub.
+https://github.com/TanmaySarfare/Financial-Metrics-Analyzer
+```
+
+### 📋 Usage Guidelines
+
+- **Educational Use**: ✅ Permitted for learning and research
+- **Commercial Use**: ❌ Requires explicit written permission
+- **Redistribution**: ❌ Not allowed without authorization
+- **Modification**: ❌ Prohibited without consent
+- **Attribution**: ✅ Required for any permitted use
+
+### ⚠️ Disclaimer
 
 This tool is for educational and research purposes only. It should not be used as the sole basis for investment decisions. Always consult with qualified financial advisors before making investment choices.
+
+**The author assumes no responsibility for any financial losses or decisions made based on this tool's output.**
 
 ## 🆘 Support
 
 If you encounter any issues or have questions:
 
-1. Check the [Issues](https://github.com/yourusername/financial-metrics-analyzer/issues) page
+1. Check the [Issues](https://github.com/TanmaySarfare/Financial-Metrics-Analyzer/issues) page
 2. Create a new issue with detailed information
 3. Include error messages and steps to reproduce
 
@@ -257,6 +285,7 @@ If you encounter any issues or have questions:
 - **FastAPI** - For the excellent Python web framework
 - **Next.js** - For the powerful React framework
 - **Financial Research Community** - For the academic models and formulas
+- **Academic Researchers** - Beneish, Altman, Piotroski for their groundbreaking work
 
 ---
 
