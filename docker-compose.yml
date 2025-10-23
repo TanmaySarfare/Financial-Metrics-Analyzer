@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./finance_clean:/app/finance_clean
+      - ./app.py:/app/app.py
+    restart: unless-stopped
+
+  frontend:
+    build: ./audit-ui
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    depends_on:
+      - backend
+    restart: unless-stopped
+    volumes:
+      - ./audit-ui:/app
+      - /app/node_modules
+      - /app/.next
