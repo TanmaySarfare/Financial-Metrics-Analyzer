@@ -1,15 +1,15 @@
-# 📊 Financial Metrics Analyzer
+# Financial Metrics Analyzer
 
 A professional financial analysis and fraud detection tool that provides comprehensive metrics for investment decision-making. Built with Python FastAPI backend and Next.js frontend.
 
-## ✨ Features
+## Features
 
 ### 🔍 **Smart Ticker Search**
 - **80+ Real Yahoo Finance Tickers** - Comprehensive database of major stocks, ETFs, and indices
 - **Dynamic Autocomplete** - Type 2-3 letters to get instant suggestions
 - **Sector Organization** - Technology, Financial Services, Healthcare, Energy, Consumer, and more
 
-### 📈 **Advanced Financial Metrics**
+### **Advanced Financial Metrics**
 - **Beneish M-Score** - Fraud detection model with component analysis
 - **Altman Z-Score** - Bankruptcy prediction model
 - **Piotroski F-Score** - Financial strength assessment (0-9 scale)
@@ -18,19 +18,19 @@ A professional financial analysis and fraud detection tool that provides compreh
 - **Price-Based Ratios** - P/E, P/B, P/S, PEG ratios
 - **Dividend Metrics** - Yield, payout ratio, coverage ratio
 
-### 🎯 **Real-Time Data**
+### *Real-Time Data**
 - **Live Market Data** - Current prices, beta, alpha calculations
 - **Company Information** - Full name, sector, industry, exchange
 - **Data Quality Indicators** - Complete/limited data warnings
 - **Alpha Calculation** - CAPM-based alpha vs S&P 500 benchmark
 
-### 🛡️ **Robust Error Handling**
+### **Robust Error Handling**
 - **ETF Support** - Graceful handling of ETFs with limited financial data
 - **Missing Data** - Clear indicators when data is unavailable
 - **JSON Safety** - Handles infinity/NaN values properly
 - **Rate Limiting** - Respectful API usage
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.10+
@@ -68,7 +68,7 @@ npm run dev
 ```
 The frontend will be available at `http://localhost:3000`
 
-## 📋 API Endpoints
+## API Endpoints
 
 ### Company Information
 - `GET /api/company/summary?ticker=AAPL` - Get company details and market data
@@ -80,7 +80,7 @@ The frontend will be available at `http://localhost:3000`
 ### Documentation
 - `GET /docs` - Interactive API documentation (Swagger UI)
 
-## 🎯 Usage Examples
+## Usage Examples
 
 ### Search for Companies
 Type in the search box to get suggestions:
@@ -117,7 +117,7 @@ XOM, CVX, COP, EOG, SLB, NEE, DUK, SO
 #### ETFs
 SPY, QQQ, VTI, VOO, IWM
 
-## 🔧 Technical Details
+## Technical Details
 
 ### Backend Architecture
 - **FastAPI** - Modern Python web framework
@@ -177,7 +177,7 @@ financial-metrics-analyzer/
 ```
 
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -185,7 +185,7 @@ financial-metrics-analyzer/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License & Attribution
+## License & Attribution
 
 ### 🔖 Technical Badges
 ![Built with Python 3.12](https://img.shields.io/badge/Built%20with-Python%203.12-blue)
@@ -195,7 +195,7 @@ financial-metrics-analyzer/
 
 ---
 
-### ⚖️ License & Attribution
+### License & Attribution
 
 **© 2025 Tanmay Rajendra Sarfare. All rights reserved.**
 
@@ -207,13 +207,13 @@ Sarfare, Tanmay R. (2025). Financial Metrics Analyzer — Professional Financial
 https://github.com/TanmaySarfare/Financial-Metrics-Analyzer
 ```
 
-### ⚠️ Disclaimer
+### Disclaimer
 
 This tool is for educational and research purposes only. It should not be used as the sole basis for investment decisions. Always consult with qualified financial advisors before making investment choices.
 
 **The author assumes no responsibility for any financial losses or decisions made based on this tool's output.**
 
-## 🆘 Support
+## Support
 
 If you encounter any issues or have questions:
 
@@ -221,7 +221,7 @@ If you encounter any issues or have questions:
 2. Create a new issue with detailed information
 3. Include error messages and steps to reproduce
 
-## 🌟 Acknowledgments
+## Acknowledgments
 
 - **Yahoo Finance** - For providing free financial data
 - **FastAPI** - For the excellent Python web framework
@@ -229,4 +229,3 @@ If you encounter any issues or have questions:
 - **Financial Research Community** - For the academic models and formulas
 - **Academic Researchers** - Beneish, Altman, Piotroski for their groundbreaking work
 
----
